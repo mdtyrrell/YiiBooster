@@ -142,8 +142,8 @@ var bootstrapWizardCreate = function(element, options) {
 	$navigation = element.find('ul:first', element);
 	$activeTab = $navigation.find('li.active', element);
 	
-	if(!$navigation.hasClass($settings.class)) {
-		$navigation.addClass($settings.class);
+	if(!$navigation.hasClass($settings.tabClass)) {
+		$navigation.addClass($settings.tabClass);
 	}
 	
 	// Load onShow

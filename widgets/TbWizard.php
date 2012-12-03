@@ -93,10 +93,10 @@ class TbWizard extends CWidget
 		if (!empty($classes))
 		{
 			$classes = implode(' ', $classes);
-			if (isset($this->htmlOptions['class']))
-				$this->htmlOptions['class'] .= ' '.$classes;
+			if (isset($this->htmlOptions['tabClass']))
+				$this->htmlOptions['tabClass'] .= ' '.$classes;
 			else
-				$this->htmlOptions['class'] = $classes;
+				$this->htmlOptions['tabClass'] = $classes;
 		}
 	}
 
